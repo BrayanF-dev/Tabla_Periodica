@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate; /* borde separado*/
+    border-spacing: 2px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+td {
+    border: none;   /*sin borde*/
+    width: 5.5%;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+td:empty {
+    border: none;
+    background: transparent;
+}
+
+tr.espacio td {
+    height: 20px;
+    border: none;
+    background: transparent;
+}
+

@@ -1,0 +1,16 @@
+td.elemento:hover {
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    z-index: 10;
+}
+
+td {
+    border: 1px solid #ccc;
+    width: 5.5%;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    position: relative;
+}
