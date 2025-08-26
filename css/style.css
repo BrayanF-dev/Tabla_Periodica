@@ -38,3 +38,12 @@ tr.espacio td {
     background: transparent;
 }
 
+footer {
+    text-align: left;          
+    font-family: "Comic Sans MS" cursive, sans-serif;  
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #2e0f38;               
+    padding: 10px 0;           
+}
